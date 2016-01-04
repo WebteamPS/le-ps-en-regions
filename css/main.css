@@ -418,17 +418,29 @@ g.active polygon, g.active path{
 	}
 }
 @media only screen and (max-width: 768px) and (min-width: 320px){
-
+	.header .lead {
+		margin: 0 0 10px 0;
+	}
+	.gotomap {
+		margin-top: 10px;
+	}
+	.btn-share {
+		right: 20px;
+    top: 20px;
+    bottom: initial;
+    position: absolute;
+    left: initial;
+	}
+	.collab-github {
+		width: 100%;
+    text-align: center;
+	}
 }
 @media only screen and (max-width: 768px) and (min-width: 480px){
-	/*body {
-		background-color: green;
-	}*/
+	
 }
 @media only screen and (max-width: 480px) and (min-width: 320px){
-	/*body {
-		background-color: orange;
-	}*/
+	
 }
 /*
 *------------
