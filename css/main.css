@@ -86,10 +86,13 @@ body {
 }
 .collab-github {
 	position: absolute;
-	text-align: right;
+
 	bottom: 2%;
 	right: 2%;
+
 	color: #fff;
+	font-family: "FontAwesome", "Helvetica Neue",Helvetica,Arial,sans-serif;
+	text-align: right;
 }
 .collab-github p {
 	margin: 0;
@@ -99,9 +102,13 @@ body {
 	text-decoration: underline;
 }
 .gotomap {
+	display: inline-block;
+	margin: 40px auto 0 auto;
+
 	color: #fff;
-	margin: 20px auto 0 auto;
 	font-size: 30px;
+	text-align: center;
+
 	-webkit-transform: translateZ(0);
 	transform: translateZ(0);
 	-webkit-transition-duration: 0.2s;
@@ -131,7 +138,6 @@ body {
 .icon-facebook img, .icon-twitter img {
 	width: 24px;	
 }
-
 .icon-twitter {
 	margin: 0 0 0 10px;
 }
@@ -435,15 +441,15 @@ g.active polygon, g.active path{
  *
  * [1] IE9
  * [2] IE10+
- */
- html.lt-ie9 body .targetInfo {
-  
-}
  html.lt-ie9 body .nav-mob {
- 	display: none;
+ 	
  }
+ */ 
+html.lt-ie9 body .header {
+  padding-top: 15%;
+}
 /* 1 */
-.ie9 img[src*=".svg"] {
+html.lt-ie9 img[src*=".svg"] {
   width: 100%; 
 }
 /* 2 */
