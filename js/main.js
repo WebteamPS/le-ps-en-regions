@@ -1,3 +1,4 @@
+// Function for animate map
 $('.showSingle, .itemShow').on('click', function () {
     $(this).attr('class', 'active').siblings().removeAttr('class', 'active');
     $('.targetInfo').hide();

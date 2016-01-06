@@ -367,6 +367,7 @@ g.active polygon, g.active path{
 	position: fixed;
   top: 0;
   right: 2%;
+  z-index: 100;
 }
 .graph {
   margin: 0 auto;
